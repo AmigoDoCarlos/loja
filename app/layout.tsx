@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
+const GITHUB_REPO_NAME = "lojadoalex"; 
 const APP_NAME = "Loja do Alex";
 const APP_DEFAULT_TITLE = "Loja do Alex";
 const APP_TITLE_TEMPLATE = "%s - PWA";
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
     template: APP_TITLE_TEMPLATE,
   },
   description: APP_DESCRIPTION,
-  manifest: "/manifest.json",
+  manifest: `${GITHUB_REPO_NAME}/manifest.json`,
   themeColor: "#FFFFFF",
   appleWebApp: {
     capable: true,
