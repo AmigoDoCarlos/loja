@@ -1,7 +1,7 @@
 {
   "name": "Loja do Alex",
   "short_name": "Loja do Alex",
-  "start_url": "/lojadoalex",
+  "start_url": "/lojadoalex/",
   "icons": [
     {
       "src": "icons/icon128x128.png",
@@ -35,7 +35,7 @@
     }
   ],
   "theme_color": "#DF2935",
-  "background_color": "#FFFFFF",
-  "display": "standalone",
+  "background_color": "#DF2935",
+  "display": "fullscreen",
   "orientation": "portrait"
 }
