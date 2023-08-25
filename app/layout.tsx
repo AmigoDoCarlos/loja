@@ -6,7 +6,11 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Loja do Alex',
-  description: 'Itens à venda por Alexander Paschoaletto',
+  description: 'Itens à venda por Alexander Paschoaletto', 
+  icons: {
+    href: '@/app/icon.ico',
+    icon: '',
+  }
 }
 
 export default function RootLayout({

@@ -1,0 +1,348 @@
+.container {
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 80vw;
+    display: flex;
+    gap: 28px;
+    margin-top: 20px;
+    padding: 46px;
+    box-sizing: border-box;
+}
+
+.leftSide {
+    position: relative;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.imageContainer {
+    overflow: hidden;
+}
+
+.image {
+    border-radius: 20px;
+    width: 100%;
+    max-height: 430px;
+    object-fit: cover;
+    position: relative;
+    cursor: pointer;
+}
+
+.imageButtons {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.imageButton {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white:hover {
+    background: #FFFFFF;
+}
+
+.red:hover {
+    background: red;
+}
+
+.textButtonsContainer {
+    display: flex;
+    gap: 6px;
+    min-height: 36px;
+}
+
+.textButton {
+    padding: 6px 15px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 17px;
+    background-color: white;
+    color: #007DDB;
+    margin: 20px 0 10px;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.description {
+    font-size: 18px;
+    width: 100%;
+    max-width: 560px;
+    margin-right: 40px;
+    text-align: justify;
+    height: 100%;
+    max-height: 250px;
+    overflow-y: scroll;
+}
+
+.description::-webkit-scrollbar {
+    display: none;
+}
+
+.labelsContainer {
+    flex: 1;
+    display: flex;
+    gap: 10px;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 22px;
+    padding: 4px 16px;
+    max-height: 22px;
+    flex: 0;
+    white-space: nowrap;
+}
+
+.priceContainer {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.price {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.buyButton {
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 7px 12px;
+    cursor: pointer;
+}
+
+.zoomBackground {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.zoomImageAndButtonContainer {
+    padding: 10px;
+    background-color: white;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    border-radius: 30px;
+    position: relative;
+}
+
+.zoomImage {
+    width: auto;
+    height: auto;
+    max-width: 60vw;
+    max-height: 80vh;
+    object-fit: scale-down;
+    border-radius: 20px;
+}
+
+.zoomButtons {
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    bottom: 30px;
+}
+
+@media(max-width: 1400px){   
+    .container {
+        padding: 30px;
+    }
+    
+    .zoomImage {
+        max-width: 75vw;
+    }
+
+    .description {
+        margin-right: 20px;
+    }
+}
+
+@media(max-width: 750px){
+    .container {
+        flex-direction: column;
+        padding: 20px;
+        gap: 8px;
+        max-width: calc(100% - 40px);
+    }
+
+    .image {
+        border-radius: 16px;
+        max-height: 300px;
+        max-width: 100%;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .imageButton {
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+    }
+
+    .header {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .title {
+        font-size: 28px;
+        font-weight: 600;
+        margin-right: 10px;
+    }
+
+    .description {
+        font-size: 16px;
+        max-width: 100%;
+        margin: 0;
+        text-align: justify;
+    }
+
+    .labelsContainer {
+        flex: 0;
+        flex-wrap: wrap;
+        gap: 4px;
+    }
+    
+    .label {
+        font-size: 14px;
+        padding: 4px 12px;
+    }
+
+    .textContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .textButtonsContainer {
+        min-height: 6px;
+        gap: 0;
+    }
+
+    .textButton {
+        padding: 4px 12px;
+        font-size: 15px;
+        margin: 10px 0 0 0;
+    }
+    
+    .priceContainer {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .price {
+        font-size: 28px;
+    }
+
+    .buyButton {
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .zoomImageAndButtonContainer {
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .zoomImage {
+        max-width: 90vw;
+        border-radius: 6px;
+    }
+
+    .zoomButtons {
+        bottom: 15px;
+    }
+}
+
+
+@media(max-height: 750px){
+    .image {
+        border-radius: 16px;
+        max-height: 220px;
+        max-width: 100%;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .container {
+        gap: 4px;
+    }
+
+    .label {
+        font-size: 12px;
+        padding: 4px 14px;
+    }
+
+    .textContainer {
+        gap: 5px;
+    }
+
+    .description {
+        font-size: 15px;
+        max-height: 190px;
+    }
+
+    .priceContainer {
+        margin-top: 10px;
+    }
+}
