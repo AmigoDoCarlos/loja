@@ -1,5 +1,5 @@
 import Image from "next/image";
-import './SlideShow.style.css';
+import './Slideshow.style.css';
 
 interface slideProps {
     sequence: any[];
