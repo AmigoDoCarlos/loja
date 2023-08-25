@@ -16,8 +16,8 @@ export default function About() {
                 <Image src={profileImg2} alt='foto de perfil' className='bioProfileImg' />
                 <div className='bioButtons'>
                   {
-                    contacts.map(contact => (
-                      <Link href={contact.url} className='bioButton'>{contact.title}</Link>
+                    contacts.map((contact, index) => (
+                      <Link key={index} href={contact.url} className='bioButton'>{contact.title}</Link>
                     ))
                   }
                 </div>

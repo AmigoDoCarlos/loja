@@ -18,6 +18,15 @@ export default function Item({title, labels, price, images, description, obs}: i
     const [srcIndex, setSrcIndex] = useState<number>(() => 0);
     const [nextIndex, setNextIndex] = useState<number>(() => 0);
 
+    const changeImgSrc = (nextIndex: number) => {
+        setSrcIndex((prev) => {
+            const next = prev + nextIndex;
+            if(next < 0) return (imgSources.length - 1);
+            if(next === imgSources.length) return 0;
+            return next;
+        });
+    }
+
     useEffect(() => {
         if(nextIndex !== 0){
             gsap.timeline().to([imgRef.current, zoomImgRef.current], {
@@ -39,16 +48,6 @@ export default function Item({title, labels, price, images, description, obs}: i
             ))
         }
     }, [nextIndex]);
-
-
-    const changeImgSrc = (nextIndex: number) => {
-        setSrcIndex((prev) => {
-            const next = prev + nextIndex;
-            if(next < 0) return (imgSources.length - 1);
-            if(next === imgSources.length) return 0;
-            return next;
-        });
-    }
 
     return (
         <>

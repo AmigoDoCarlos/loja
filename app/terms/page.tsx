@@ -21,7 +21,7 @@ export default function Terms() {
             <div className='termsContent'>
                 <div className='termsButtons'>
                     {terms.map((term, index) => 
-                        <button className={`termsButton ${(terms[selectedTerm].title === term.title)? 'selected' : 'unselected'}`} onClick={() => setSelectedTerm(index)}>
+                        <button key={index} className={`termsButton ${(terms[selectedTerm].title === term.title)? 'selected' : 'unselected'}`} onClick={() => setSelectedTerm(index)}>
                             {term.title}
                         </button>
                     )}
