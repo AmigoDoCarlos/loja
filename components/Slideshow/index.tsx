@@ -14,6 +14,7 @@ export default function Slideshow({sequence, className, invert, period}: slidePr
         <div className={className}>
             {sequence.map((picture, index) => (
                 <Image
+                    loading="eager"
                     key={index}
                     src={picture}
                     alt={`imagem ${index + 1} da intro`}
