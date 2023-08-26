@@ -1,7 +1,7 @@
 {
   "name": "Loja do Alex",
   "short_name": "Loja do Alex",
-  "start_url": "/lojadoalex/",
+  "start_url": "/loja/",
   "icons": [
     {
       "src": "icons/icon128x128.png",

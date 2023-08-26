@@ -4,7 +4,7 @@ const nextConfig = {
     images: {
         unoptimized: true,
     },
-    basePath: '/lojadoalex',
+    basePath: '/loja',
 }
 
 //module.exports = nextConfig

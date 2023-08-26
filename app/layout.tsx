@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
-const GITHUB_REPO_NAME = "lojadoalex"; 
+const GITHUB_REPO_NAME = "loja"; 
 const APP_NAME = "Loja do Alex";
 const APP_DEFAULT_TITLE = "Loja do Alex";
 const APP_TITLE_TEMPLATE = "%s - PWA";
