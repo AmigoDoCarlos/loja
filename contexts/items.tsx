@@ -140,16 +140,18 @@ export const items: itemProps[] = [
         title: 'Mindstorms EV3',
         labels: [
             {text: 'conjunto', backgroundColor: colors.blue},
-            {text: 'extras', backgroundColor: colors.pink},
+            {text: 'adesivos', backgroundColor: colors.darkAcqua},
+            {text: 'manual', backgroundColor: colors.purple},
+            {text: 'peças extras', backgroundColor: colors.pink},
         ],
         description: <>
                 Este conjunto representa a terceira (e mais completa, na minha opinião) geração dos kits de robótica educacional da Lego.
                 Possui todos os cabos (7 cabos do robô + 1 USB), motores (dois L e um M) sensores (um de toque,
                 um de cor e um infravermelho) e o controle remoto funcionando perfeitamente.
                 <br/><br/>
-                Possui ainda uma série de itens extras: um segundo controle remoto, da linha Power Functions (que comprei por ser
-                100% compatível e mais ergonômico que o original do EV3), 5 cabos extras e, principalmente, um segundo sensor de cor. Isto
-                faz com que este kit seja muito indicado para competições como a Olimpíada Brasileira de Robótica, por exemplo.
+                Possui ainda a cartela de adesivos intacta e uma série de itens extras: um segundo controle remoto, da linha Power Functions
+                (que comprei por ser compatível e mais ergonômico que o original do EV3), 5 cabos extras e, principalmente, um segundo
+                sensor de cor. Isto faz com que este kit seja muito indicado para competições como a Olimpíada Brasileira de Robótica, por exemplo.
                 <br/><br/>
                 De observações, possui apenas duas peças estéticas faltando (uma <a href='https://www.bricklink.com/v2/catalog/catalogitem.page?P=64391&idColor=1#T=S&C=1&O={%22color%22:1,%22iconly%22:0}'>64391</a>
                 &nbsp;e uma <a href='https://www.bricklink.com/v2/catalog/catalogitem.page?P=98347&idColor=1#T=S&C=1&O={%22color%22:1,%22iconly%22:0}'>98347</a>).
