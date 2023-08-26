@@ -28,6 +28,7 @@ import saturn2 from '@/assets/images/apollo/apollo2.jpg';
 import saturn3 from '@/assets/images/apollo/apollo3.jpg';
 import saturn4 from '@/assets/images/apollo/apollo4.jpg';
 import saturn5 from '@/assets/images/apollo/apollo5.jpg';
+import saturn6 from '@/assets/images/apollo/apollo6.jpg';
 
 import city1 from '@/assets/images/city/city1.jpg';
 import city2 from '@/assets/images/city/city2.jpg';
@@ -102,6 +103,7 @@ export const productPictures = {
         saturn3,
         saturn4,
         saturn5,
+        saturn6,
     ],
     mindstorms: [
         mind1,

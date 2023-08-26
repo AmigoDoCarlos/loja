@@ -50,3 +50,9 @@ table {
 .bold {
     font-weight: 600;
 }
+
+a {
+	font-weight: 600;
+	color: #005f91;
+	text-decoration: none;
+}
