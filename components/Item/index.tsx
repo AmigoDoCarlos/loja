@@ -115,9 +115,11 @@ export default function Item({title, labels, price, images, description, obs}: i
                         <p className='price'>
                             R$ {price}
                         </p>
-                        <button className='buyButton'>
-                            comprar
-                        </button>
+                        <a href='https://web.whatsapp.com/send?phone=+5519992351128&text=Ol%C3%A1%2C+eu+dei+uma+olhada+nos+seus+itens+%C3%A0+venda+e+gostaria+de+comprar+um+deles%21'>
+                            <button className='buyButton'>
+                                comprar
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
