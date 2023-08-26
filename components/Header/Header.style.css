@@ -59,6 +59,12 @@
     display: none;
 }
 
+@media(min-width: 1920px){
+    .headerContainer {
+        width: 1536px;
+    }
+}
+
 @media(max-width: 1200px){
     .headerTexts {
         gap: 30px;

@@ -105,6 +105,17 @@
     display: none;
 }
 
+@media(min-width: 1920px){
+    .bioContainer {
+        width: 1536px;
+    }
+
+    .bioDescription {
+        width: 768px;
+        margin-right: 40px;
+    }
+}
+
 @media(max-width: 1400px){
     .bioProfileImg {
         width: 150px;

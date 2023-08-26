@@ -15,6 +15,7 @@ export type itemProps = {
     price: number;
     images: string[] | StaticImageData[];
     obs?: string | JSX.Element;
+    filters: string[];
 }
 
 export const items: itemProps[] = [
@@ -22,6 +23,7 @@ export const items: itemProps[] = [
         title: 'Mclaren MP4-6',
         labels: [
             {text: 'autoral', backgroundColor: colors.green},
+            {text: 'exclusivo', backgroundColor: colors.red}
         ],
         description: <>
                 Construído pela primeira vez em 2019 para marcar os 25 anos da morte do
@@ -30,16 +32,18 @@ export const items: itemProps[] = [
                 tarde no mesmo ano. Recebeu melhorias estruturais desde então, tendo aparecido
                 em algumas exposições e se consagrado como um de meus modelos mais icônicos.
                 <br/><br/>
-                Assim como no carro real, este modelo permite esterçar as rodas e
-                remover o nariz e a cobertura principal, dando acesso ao motor.
-                Instruções disponíveis e fornecidas via PDF.
+                Assim como no carro real, este modelo permite esterçar as rodas e remover o
+                nariz e a cobertura principal, dando acesso ao motor. Instruções disponíveis e
+                fornecidas via PDF. A última foto mostra uma comparação de tamanho com uma minifigura.
             </>,
         price: 679,
         images: productPictures.mclaren,
+        filters: [],
     }, {
         title: 'Arara Canindé',
         labels: [
             {text: 'autoral', backgroundColor: colors.green},
+            {text: 'exclusivo', backgroundColor: colors.red}
         ],
         description: <>
                 Construí este que é um dos meus animais favoritos em 2015, inicialmente para
@@ -48,10 +52,12 @@ export const items: itemProps[] = [
                 adquiridas para melhorar pontos como as asas e a base.  
                 <br/><br/>
                 Este modelo possui 82 peças e permite mexer a cabeça, asas, caudas e pernas.
-                As instruções estão disponíveis e serão fornecidas via PDF.
+                As instruções estão disponíveis e serão fornecidas via PDF. A última foto
+                mostra uma comparação de tamanho com uma minifigura.
             </>,
         price: 120,
         images: productPictures.macaw,
+        filters: [],
     }, {
         title: 'Conjunto City',
         labels: [
@@ -68,6 +74,7 @@ export const items: itemProps[] = [
             </>,
         price: 139,
         images: productPictures.city,
+        filters: [],
     }, {
         title: 'Conjunto Speed Champions',
         labels: [
@@ -83,12 +90,13 @@ export const items: itemProps[] = [
             </>,
         price: 199,
         images: productPictures.speed,
+        filters: [],
     }, {
         title: 'Nitro Muscle',
         labels: [
             {text: 'conjunto', backgroundColor: colors.blue},
             {text: 'completo', backgroundColor: colors.clickBlue},
-            {text: 'raro', backgroundColor: colors.red}
+            {text: 'raro', backgroundColor: colors.pink}
         ],
         description: <>
                 Este conjunto completo e praticamente novo foi lançado originalmente em 2007 na linha Racers
@@ -99,6 +107,7 @@ export const items: itemProps[] = [
             </>,
         price: 249,
         images: productPictures.nitro,
+        filters: [],
     }, {
         title: 'NASA Apollo Saturn V',
         labels: [
@@ -126,6 +135,7 @@ export const items: itemProps[] = [
             </>,
         price: 1069,
         images: productPictures.saturn,
+        filters: [],
     }, {
         title: 'Mindstorms EV3',
         labels: [
@@ -148,6 +158,7 @@ export const items: itemProps[] = [
             </>,
         price: 1349,
         images: productPictures.mindstorms,
+        filters: [],
     }
 ]
 

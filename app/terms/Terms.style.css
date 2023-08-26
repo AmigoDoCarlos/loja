@@ -73,13 +73,27 @@
     text-align: justify;
     margin-bottom: 20px;
     font-size: 17px;
-    line-height: 20px;
+    line-height: 21px;
 }
 
 .termDescription::-webkit-scrollbar {
     display: none;
 }
 
+@media(min-width: 1920px){
+    .termsContainer {
+        width: 1536px;
+    }
+
+    .termsImage {
+        width: 450px;
+    }
+
+    .termDescription {
+        width: 768px;
+        margin-right: 40px;
+    }
+}
 
 @media(max-width: 750px){
     .termsContainer {
@@ -107,6 +121,8 @@
 
     .termDescription {
         width: 100%;
+        font-size: 16px;
+        line-height: 20px;
     }
 }
 

@@ -10,11 +10,14 @@ import mclaren2 from '@/assets/images/mclaren/mclaren2.jpg';
 import mclaren3 from '@/assets/images/mclaren/mclaren3.jpg';
 import mclaren4 from '@/assets/images/mclaren/mclaren4.jpg';
 import mclaren5 from '@/assets/images/mclaren/mclaren5.jpg';
+import mclaren6 from '@/assets/images/mclaren/mclaren6.jpg';
+import mclaren7 from '@/assets/images/mclaren/mclaren7.jpg';
 
 import macaw1 from '@/assets/images/macaw/macaw1.jpg';
 import macaw2 from '@/assets/images/macaw/macaw2.jpg';
 import macaw3 from '@/assets/images/macaw/macaw3.jpg';
 import macaw4 from '@/assets/images/macaw/macaw4.jpg';
+import macaw5 from '@/assets/images/macaw/macaw5.jpg';
 
 import speed1 from '@/assets/images/speed/speed1.jpg';
 import speed2 from '@/assets/images/speed/speed2.jpg';
@@ -68,12 +71,15 @@ export const productPictures = {
         mclaren3,
         mclaren4,
         mclaren5,
+        mclaren6,
+        mclaren7,
     ],
     macaw: [
         macaw1,
         macaw2,
         macaw3,
         macaw4,
+        macaw5,
     ],
     speed: [
         speed1,

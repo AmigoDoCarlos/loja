@@ -13,10 +13,13 @@ export default function Item({title, labels, price, images, description, obs}: i
     const imgSources = useRef(images).current;
     const imgRef = useRef(null);
     const zoomImgRef = useRef(null);
+    const [url, setUrl] = useState(() => 'https://web.whatsapp.com/');
     const [zoom, setZoom] = useState<boolean>(() => false);
     const [observations, setObservations] = useState<boolean>(() => false);
     const [srcIndex, setSrcIndex] = useState<number>(() => 0);
     const [nextIndex, setNextIndex] = useState<number>(() => 0);
+
+    const welcomeText = encodeURIComponent(`Olá Alex! Eu dei uma olhada nos seus itens à venda e gostaria de comprar o ${title}!`);
 
     const changeImgSrc = (nextIndex: number) => {
         setSrcIndex((prev) => {
@@ -26,6 +29,13 @@ export default function Item({title, labels, price, images, description, obs}: i
             return next;
         });
     }
+
+    useEffect(() => {
+        const isMobile = navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i);
+        if(isMobile){
+            setUrl('whatsapp://');
+        }
+    }, []);
 
     useEffect(() => {
         if(nextIndex !== 0){
@@ -115,7 +125,7 @@ export default function Item({title, labels, price, images, description, obs}: i
                         <p className='price'>
                             R$ {price}
                         </p>
-                        <a href='https://web.whatsapp.com/send?phone=+5519992351128&text=Ol%C3%A1%2C+eu+dei+uma+olhada+nos+seus+itens+%C3%A0+venda+e+gostaria+de+comprar+um+deles%21'>
+                        <a target="_blank" href={`${url}send?phone=+5519992351128&text=${welcomeText}`}>
                             <button className='buyButton'>
                                 comprar
                             </button>

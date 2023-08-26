@@ -201,6 +201,12 @@
     bottom: 30px;
 }
 
+@media(min-width: 1920px){
+    .container {
+        width: 1536px;
+    }
+}
+
 @media(max-width: 1400px){   
     .container {
         padding: 30px;
