@@ -161,6 +161,23 @@ export const items: itemProps[] = [
         price: 1349,
         images: productPictures.mindstorms,
         filters: [],
-    }
+    }, {
+        title: 'Luke Skywalker',
+        labels: [
+            {text: 'conjunto', backgroundColor: colors.blue},
+            {text: 'manual', backgroundColor: colors.purple},
+        ],
+        description: <>
+                Versão de construção (e bem maior) de um dos personagens principais da saga Star Wars, com 82 peças.
+                O kit acompanha o manual de instruções impresso e está em condição de novo, tendo sido montado
+                somente uma vez.
+                <br/><br/>
+                A última foto mostra uma comparação de tamanho com uma minifigura. De observações, falta apenas uma
+                peça da arma laser (<a href='https://www.bricklink.com/v2/catalog/catalogitem.page?P=11610&idColor=95#T=S&C=95&O={%22color%22:95,%22iconly%22:0}'>11610</a>). 
+            </>,
+        price: 59,
+        images: productPictures.luke,
+        filters: [],
+    },
 ]
 

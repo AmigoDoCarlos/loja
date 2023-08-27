@@ -51,6 +51,13 @@ import nitro3 from '@/assets/images/nitro/nitro3.jpg';
 import nitro4 from '@/assets/images/nitro/nitro4.jpg';
 import nitro5 from '@/assets/images/nitro/nitro5.jpg';
 
+import luke1 from '@/assets/images/luke/luke1.jpg';
+import luke2 from '@/assets/images/luke/luke2.jpg';
+import luke3 from '@/assets/images/luke/luke3.jpg';
+import luke4 from '@/assets/images/luke/luke4.jpg';
+import luke5 from '@/assets/images/luke/luke5.jpg';
+import luke6 from '@/assets/images/luke/luke6.jpg';
+
 export const introPictures = {
     left: [
         leftImg3,
@@ -118,5 +125,13 @@ export const productPictures = {
         mind4,
         mind5,
     ],
+    luke: [
+        luke1,
+        luke2,
+        luke3, 
+        luke4,
+        luke5,
+        luke6,
+    ]
 }
 
