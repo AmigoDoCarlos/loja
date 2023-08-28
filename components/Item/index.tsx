@@ -8,7 +8,7 @@ import Image from 'next/image';
 import gsap from 'gsap';
 import './Item.style.css';
 
-export default function Item({title, labels, price, images, description, obs}: itemProps){
+export default function Item({title, labels, price, images, description, obs, sold}: itemProps){
 
     const imgSources = useRef(images).current;
     const imgRef = useRef(null);
@@ -70,7 +70,13 @@ export default function Item({title, labels, price, images, description, obs}: i
                             alt={`imagem ${srcIndex + 1} de ${title}`}
                             className='image'
                             onClick={() => setZoom(true)}
+                            style={{filter: sold? 'grayscale(100%)': 'none'}}
                         />
+                        {sold && (
+                            <div className='soldLabel bold'>
+                                Vendido!
+                            </div>
+                        )}
                     </div>
                     <div className='imageButtons'>
                         <button className='imageButton white' onClick={() => setNextIndex(-1)}>
@@ -126,7 +132,9 @@ export default function Item({title, labels, price, images, description, obs}: i
                             R$ {price}
                         </p>
                         <a target="_blank" href={`${url}send?phone=+5519992351128&text=${welcomeText}`}>
-                            <button className='buyButton'>
+                            <button className='buyButton' disabled={sold} style={{
+                                opacity: sold? 0.4 : 1
+                            }}>
                                 comprar
                             </button>
                         </a>

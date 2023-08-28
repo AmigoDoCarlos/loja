@@ -16,6 +16,7 @@ export type itemProps = {
     images: string[] | StaticImageData[];
     obs?: string | JSX.Element;
     filters: string[];
+    sold: boolean;
 }
 
 export const items: itemProps[] = [
@@ -39,6 +40,7 @@ export const items: itemProps[] = [
         price: 679,
         images: legoPictures.mclaren,
         filters: [],
+        sold: false,
     }, {
         title: 'Arara Canindé',
         labels: [
@@ -58,6 +60,7 @@ export const items: itemProps[] = [
         price: 120,
         images: legoPictures.macaw,
         filters: [],
+        sold: false,
     }, {
         title: 'Conjunto Selva',
         labels: [
@@ -73,6 +76,7 @@ export const items: itemProps[] = [
         price: 39,
         images: legoPictures.miniJungle,
         filters: [],
+        sold: true,
     }, {
         title: 'Conjunto Heróis',
         labels: [
@@ -86,6 +90,7 @@ export const items: itemProps[] = [
         price: 39,
         images: legoPictures.miniHeroes,
         filters: [],
+        sold: false,
     }, {
         title: 'Conjunto Corrida',
         labels: [
@@ -99,6 +104,7 @@ export const items: itemProps[] = [
         price: 39,
         images: legoPictures.miniRacers,
         filters: [],
+        sold: false,
     }, {
         title: 'Conjunto Ford',
         labels: [
@@ -112,6 +118,7 @@ export const items: itemProps[] = [
         price: 39,
         images: legoPictures.miniFord,
         filters: [],
+        sold: false,
     }, {
         title: 'Conjunto Pilotos',
         labels: [
@@ -124,6 +131,7 @@ export const items: itemProps[] = [
         price: 39,
         images: legoPictures.miniPilots,
         filters: [],
+        sold: false,
     }, {
         title: 'Conjunto Guerreiros',
         labels: [
@@ -137,6 +145,7 @@ export const items: itemProps[] = [
         price: 39,
         images: legoPictures.miniStarWars,
         filters: [],
+        sold: false,
     }, {
         title: 'Luke Skywalker',
         labels: [
@@ -154,6 +163,7 @@ export const items: itemProps[] = [
         price: 59,
         images: legoPictures.luke,
         filters: [],
+        sold: false,
     }, {
         title: 'Mini Ferrari 458 Italia',
         labels: [
@@ -168,6 +178,7 @@ export const items: itemProps[] = [
         price: 20,
         images: legoPictures.tinyFerrari,
         filters: [],
+        sold: false,
     }, {
         title: 'Conjunto Racers',
         labels: [
@@ -182,6 +193,7 @@ export const items: itemProps[] = [
         price: 99,
         images: legoPictures.pullback,
         filters: [],
+        sold: false,
     }, {
         title: 'Conjunto City',
         labels: [
@@ -199,6 +211,7 @@ export const items: itemProps[] = [
         price: 139,
         images: legoPictures.city,
         filters: [],
+        sold: false,
     }, {
         title: 'Conjunto Speed Champions',
         labels: [
@@ -215,6 +228,7 @@ export const items: itemProps[] = [
         price: 199,
         images: legoPictures.speed,
         filters: [],
+        sold: false,
     }, {
         title: 'Nitro Muscle',
         labels: [
@@ -232,6 +246,7 @@ export const items: itemProps[] = [
         price: 249,
         images: legoPictures.nitro,
         filters: [],
+        sold: false,
     }, {
         title: 'NASA Apollo Saturn V',
         labels: [
@@ -260,6 +275,7 @@ export const items: itemProps[] = [
         price: 1069,
         images: legoPictures.saturn,
         filters: [],
+        sold: false,
     }, {
         title: 'Mindstorms EV3',
         labels: [
@@ -285,5 +301,6 @@ export const items: itemProps[] = [
         price: 1349,
         images: legoPictures.mindstorms,
         filters: [],
+        sold: false,
     },
 ]

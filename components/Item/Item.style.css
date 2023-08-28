@@ -28,15 +28,28 @@
 
 .imageContainer {
     overflow: hidden;
+    position: relative;
+    border-radius: 20px;
 }
 
 .image {
-    border-radius: 20px;
     width: 100%;
     max-height: 430px;
     object-fit: cover;
     position: relative;
     cursor: pointer;
+}
+
+.soldLabel {
+    position: absolute;
+    background: red;
+    color: white;
+    padding: 15px 80px;
+    top: 40px;
+    left: -60px;
+    z-index: 5;
+    font-size: 16px;
+    transform: rotate(-45deg);
 }
 
 .imageButtons {
@@ -222,6 +235,13 @@
 }
 
 @media(max-width: 750px){
+    .soldLabel {
+        padding: 12px 80px;
+        top: 10px;
+        left: -80px;
+        font-size: 14px;
+    }
+    
     .container {
         flex-direction: column;
         padding: 20px;
