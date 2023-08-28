@@ -9,8 +9,8 @@ export const bio: termType = {
     title: 'Sobre o autor',
     description: (
         <>
-            Olá! meu nome é Alexander Paschoaletto e eu sou um engenheiro mecatrônico e desenvolvedor
-            web de 26 anos apaixonado por LEGO. Desde 2012 exponho minhas construções online,
+            Olá! meu nome é Alexander Paschoaletto e eu sou um engenheiro mecatrônico e Desenvolvedor
+            web e mobile de 26 anos apaixonado por LEGO. Desde 2012 exponho minhas construções online,
             inicialmente através da extinta mocpages.com e atualmente
             via <span className='bold'>Flickr</span> e <span className='bold'>Instagram</span>.
             Sou construtor principalmente de carros na escala 1:17 ou 14-wide, a depender de como
