@@ -59,6 +59,75 @@ export const items: itemProps[] = [
         images: productPictures.macaw,
         filters: [],
     }, {
+        title: 'Conjunto Selva',
+        labels: [
+            {text: 'combo', backgroundColor: colors.darkGrey},
+        ],
+        description: <>
+                Um conjunto que poderia muito bem ter saído de algum Tomb Raider. Composto pela
+                minifigura de uma exploradora ('Dino Tracker' da série 12) e seus devidos acessórios
+                (seringa, arco e flecha) e três animais (um crocodilo, uma aranha e uma cobra) retirados do kit
+                &nbsp;<a href='https://www.bricklink.com/v2/catalog/catalogitem.page?S=60066-1&name=Swamp%20Police%20Starter%20Set&category=%5BTown%5D%5BCity%5D%5BPolice%5D#T=S&O={%22iconly%22:0}' target='_blank'>
+                60066-1</a>. Todos os itens estão em condição de novos.
+            </>,
+        price: 39,
+        images: productPictures.miniJungle,
+        filters: [],
+    }, {
+        title: 'Conjunto Heróis',
+        labels: [
+            {text: 'combo', backgroundColor: colors.darkGrey},
+        ],
+        description: <>
+                Conjunto representando um crossover improvável ente Pixar e DC comics. Consiste no Batman com acessórios (arma de gancho e cinto de utilidades),
+                e Sr Incrível com acessório (pôster do primeiro filme). Ambos estão em condição de novos.
+            </>,
+        price: 39,
+        images: productPictures.miniHeroes,
+        filters: [],
+    }, {
+        title: 'Conjunto pilotos SW',
+        labels: [
+            {text: 'combo', backgroundColor: colors.darkGrey},
+        ],
+        description: <>
+                Conjunto com dois pilotos de Star Wars, um da resistência rebelde e outro do império.
+                Ambos estão em condição de novos e acompanham pistolas laser acessórias.
+            </>,
+        price: 39,
+        images: productPictures.miniPilots,
+        filters: [],
+    }, {
+        title: 'Conjunto guerreiros SW',
+        labels: [
+            {text: 'combo', backgroundColor: colors.darkGrey},
+        ],
+        description: <>
+                Conjunto com um Wookie e um lorde Sith customizado, este último construído com o corpo, capuz e cabelo da personagem
+                &nbsp;<a href='https://www.bricklink.com/v2/catalog/catalogitem.page?M=sw0752#T=S&O={%22iconly%22:0}' target='_blank'>Naare</a> (
+                somente a cabeça é de outra minifigura). Ambos estão em condição de novos.
+            </>,
+        price: 39,
+        images: productPictures.miniStarWars,
+        filters: [],
+    }, {
+        title: 'Luke Skywalker',
+        labels: [
+            {text: 'conjunto', backgroundColor: colors.blue},
+            {text: 'manual', backgroundColor: colors.purple},
+        ],
+        description: <>
+                Versão de construção (e bem maior) de um dos personagens principais da saga Star Wars, com 82 peças.
+                O kit acompanha o manual de instruções impresso e está em condição de novo, tendo sido montado
+                somente uma vez e deixado exposto desde então.
+                <br/><br/>
+                A última foto mostra uma comparação de tamanho com uma minifigura. De observações, falta apenas uma
+                peça da arma laser (<a href='https://www.bricklink.com/v2/catalog/catalogitem.page?P=11610&idColor=95#T=S&C=95&O={%22color%22:95,%22iconly%22:0}' target='_blank'>11610</a>). 
+            </>,
+        price: 59,
+        images: productPictures.luke,
+        filters: [],
+    }, {
         title: 'Conjunto City',
         labels: [
             {text: 'combo', backgroundColor: colors.darkGrey},
@@ -68,8 +137,8 @@ export const items: itemProps[] = [
                 Conjunto de 174 peças com carros retirados do set 60128 (Police Pursuit).
                 Acompanha manuais impressos originais.
                 <br/><br/>
-                Os carros estão completos, mas faltam 2 peças acessórias (<a href='https://www.bricklink.com/v2/catalog/catalogitem.page?P=3069bpx7&idColor=6#T=S&C=6&O={%22color%22:6,%22iconly%22:0}'>3069bpx7</a>),
-                e o cofre da caminhonete (<a href='https://www.bricklink.com/v2/catalog/catalogitem.page?P=4345&idColor=86#T=S&C=86&O={%22color%22:86,%22iconly%22:0}'>4345</a>)
+                Os carros estão completos, mas faltam 2 peças acessórias (<a href='https://www.bricklink.com/v2/catalog/catalogitem.page?P=3069bpx7&idColor=6#T=S&C=6&O={%22color%22:6,%22iconly%22:0}' target='_blank'>3069bpx7</a>),
+                e o cofre da caminhonete (<a href='https://www.bricklink.com/v2/catalog/catalogitem.page?P=4345&idColor=86#T=S&C=86&O={%22color%22:86,%22iconly%22:0}' target='_blank'>4345</a>)
                 está disponibilizado em preto em vez de light bluish grey. Sem minifiguras.
             </>,
         price: 139,
@@ -101,7 +170,7 @@ export const items: itemProps[] = [
         description: <>
                 Este conjunto completo e praticamente novo foi lançado originalmente em 2007 na linha Racers
                 e montado apenas duas vezes. Nunca foi adesivado. Possui mais de 1kg de peso e todas as suas
-                598 peças, sendo duas delas os raríssimos motores <a href='https://www.bricklink.com/v2/catalog/catalogitem.page?P=46453&idColor=66#T=S&C=66&O={%22color%22:66,%22iconly%22:0}'>46453</a>.  
+                598 peças, sendo duas delas os raríssimos motores <a href='https://www.bricklink.com/v2/catalog/catalogitem.page?P=46453&idColor=66#T=S&C=66&O={%22color%22:66,%22iconly%22:0}' target='_blank'>46453</a>.  
                 O modelo permite levantar a carroceria, expondo o interior do carro, e esterçar as rodas
                 dianteiras através de uma manopla no para-choque traseiro.
             </>,
@@ -129,7 +198,7 @@ export const items: itemProps[] = [
                 nas peças que virão com eles.
                 <br/><br/>
                 Este produto acompanha a caixa original e o manual impresso. Vem com um astronauta
-                extra, mas está faltando a bandeira americana (<a href='https://www.bricklink.com/v2/catalog/catalogitem.page?P=3069bpb0587&idColor=12#T=S&C=12&O={%22color%22:12,%22iconly%22:0}'>
+                extra, mas está faltando a bandeira americana (<a href='https://www.bricklink.com/v2/catalog/catalogitem.page?P=3069bpb0587&idColor=12#T=S&C=12&O={%22color%22:12,%22iconly%22:0}' target='_blank'>
                 3069bpb0587</a>). Além disso, uma das peças internas está um pouco avariada, conforme mostrado na última foto.
                 Mesmo com esta avaria, é possível usá-la na montagem sem nenhum problema (conforme também ilustrado na foto). 
             </>,
@@ -153,30 +222,13 @@ export const items: itemProps[] = [
                 (que comprei por ser compatível e mais ergonômico que o original do EV3), 5 cabos extras e, principalmente, um segundo
                 sensor de cor. Isto faz com que este kit seja muito indicado para competições como a Olimpíada Brasileira de Robótica, por exemplo.
                 <br/><br/>
-                De observações, possui apenas duas peças estéticas faltando (uma <a href='https://www.bricklink.com/v2/catalog/catalogitem.page?P=64391&idColor=1#T=S&C=1&O={%22color%22:1,%22iconly%22:0}'>64391</a>
+                De observações, possui apenas duas peças estéticas faltando (uma <a href='https://www.bricklink.com/v2/catalog/catalogitem.page?P=64391&idColor=1#T=S&C=1&O={%22color%22:1,%22iconly%22:0}' target='_blank'>64391</a>
                 &nbsp;e uma <a href='https://www.bricklink.com/v2/catalog/catalogitem.page?P=98347&idColor=1#T=S&C=1&O={%22color%22:1,%22iconly%22:0}'>98347</a>).
                 Por fim, o carregador de bolinhas está com uma de suas pontas de fixação quebrada (conforme mostrado na última foto),
                 mas nada que atrapalhe a montagem. 
             </>,
         price: 1349,
         images: productPictures.mindstorms,
-        filters: [],
-    }, {
-        title: 'Luke Skywalker',
-        labels: [
-            {text: 'conjunto', backgroundColor: colors.blue},
-            {text: 'manual', backgroundColor: colors.purple},
-        ],
-        description: <>
-                Versão de construção (e bem maior) de um dos personagens principais da saga Star Wars, com 82 peças.
-                O kit acompanha o manual de instruções impresso e está em condição de novo, tendo sido montado
-                somente uma vez.
-                <br/><br/>
-                A última foto mostra uma comparação de tamanho com uma minifigura. De observações, falta apenas uma
-                peça da arma laser (<a href='https://www.bricklink.com/v2/catalog/catalogitem.page?P=11610&idColor=95#T=S&C=95&O={%22color%22:95,%22iconly%22:0}'>11610</a>). 
-            </>,
-        price: 59,
-        images: productPictures.luke,
         filters: [],
     },
 ]

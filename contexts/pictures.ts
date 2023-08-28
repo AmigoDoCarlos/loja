@@ -58,6 +58,30 @@ import luke4 from '@/assets/images/luke/luke4.jpg';
 import luke5 from '@/assets/images/luke/luke5.jpg';
 import luke6 from '@/assets/images/luke/luke6.jpg';
 
+import miniJungle1 from '@/assets/images/miniJungle/jungle1.jpg';
+import miniJungle2 from '@/assets/images/miniJungle/jungle2.jpg';
+import miniJungle3 from '@/assets/images/miniJungle/jungle3.jpg';
+import miniJungle4 from '@/assets/images/miniJungle/jungle4.jpg';
+import miniJungle5 from '@/assets/images/miniJungle/jungle5.jpg';
+
+import miniHeroes1 from '@/assets/images/miniHeroes/heroes1.jpg';
+import miniHeroes2 from '@/assets/images/miniHeroes/heroes2.jpg';
+import miniHeroes3 from '@/assets/images/miniHeroes/heroes3.jpg';
+import miniHeroes4 from '@/assets/images/miniHeroes/heroes4.jpg';
+import miniHeroes5 from '@/assets/images/miniHeroes/heroes5.jpg';
+
+import miniPilots1 from '@/assets/images/miniPilots/pilots1.jpg';
+import miniPilots2 from '@/assets/images/miniPilots/pilots2.jpg';
+import miniPilots3 from '@/assets/images/miniPilots/pilots3.jpg';
+import miniPilots4 from '@/assets/images/miniPilots/pilots4.jpg';
+import miniPilots5 from '@/assets/images/miniPilots/pilots5.jpg';
+
+import miniStarWars1 from '@/assets/images/miniStarWars/sw1.jpg';
+import miniStarWars2 from '@/assets/images/miniStarWars/sw2.jpg';
+import miniStarWars3 from '@/assets/images/miniStarWars/sw3.jpg';
+import miniStarWars4 from '@/assets/images/miniStarWars/sw4.jpg';
+import miniStarWars5 from '@/assets/images/miniStarWars/sw5.jpg';
+
 export const introPictures = {
     left: [
         leftImg3,
@@ -87,6 +111,34 @@ export const productPictures = {
         macaw3,
         macaw4,
         macaw5,
+    ],
+    miniJungle: [
+        miniJungle1,
+        miniJungle2,
+        miniJungle3,
+        miniJungle4,
+        miniJungle5,
+    ],
+    miniHeroes: [
+        miniHeroes1,
+        miniHeroes2,
+        miniHeroes3,
+        miniHeroes4,
+        miniHeroes5,
+    ],
+    miniPilots: [
+        miniPilots1,
+        miniPilots2,
+        miniPilots3,
+        miniPilots4,
+        miniPilots5,
+    ],
+    miniStarWars: [
+        miniStarWars1,
+        miniStarWars2,
+        miniStarWars3,
+        miniStarWars4,
+        miniStarWars5,
     ],
     speed: [
         speed1,
@@ -132,6 +184,6 @@ export const productPictures = {
         luke4,
         luke5,
         luke6,
-    ]
+    ],
 }
 
