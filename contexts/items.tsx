@@ -161,7 +161,7 @@ export const items: itemProps[] = [
         ],
         description: <>
                 Este pequeno conjunto de 33 peças surgiu em 2012 em uma edição limitada,
-                fruto de uma parceria entre Shell e Lego. Possui mecanismo de fricção.
+                fruto de uma parceria entre Shell e LEGO. Possui mecanismo de fricção.
                 Contém o manual impresso original, mas as rodas foram substituídas pelas
                 do set 31055. 
             </>,
@@ -269,32 +269,7 @@ export const items: itemProps[] = [
             {text: 'peças extras', backgroundColor: colors.pink},
         ],
         description: <>
-                Este conjunto representa a terceira (e mais completa, na minha opinião) geração dos kits de robótica educacional da Lego.
-                Possui todos os cabos (7 cabos do robô + 1 USB), motores (dois L e um M) sensores (um de toque,
-                um de cor e um infravermelho) e o controle remoto funcionando perfeitamente.
-                <br/><br/>
-                Possui ainda a cartela de adesivos intacta e uma série de itens extras: um segundo controle remoto, da linha Power Functions
-                (que comprei por ser compatível e mais ergonômico que o original do EV3), 5 cabos extras e, principalmente, um segundo
-                sensor de cor. Isto faz com que este kit seja muito indicado para competições como a Olimpíada Brasileira de Robótica, por exemplo.
-                <br/><br/>
-                De observações, possui apenas duas peças estéticas faltando (uma <a href='https://www.bricklink.com/v2/catalog/catalogitem.page?P=64391&idColor=1#T=S&C=1&O={%22color%22:1,%22iconly%22:0}' target='_blank'>64391</a>
-                &nbsp;e uma <a href='https://www.bricklink.com/v2/catalog/catalogitem.page?P=98347&idColor=1#T=S&C=1&O={%22color%22:1,%22iconly%22:0}'>98347</a>).
-                Por fim, o carregador de bolinhas está com uma de suas pontas de fixação quebrada (conforme mostrado na última foto),
-                mas nada que atrapalhe a montagem. 
-            </>,
-        price: 1349,
-        images: legoPictures.mindstorms,
-        filters: [],
-    }, {
-        title: 'Mindstorms EV3',
-        labels: [
-            {text: 'conjunto', backgroundColor: colors.blue},
-            {text: 'adesivos', backgroundColor: colors.darkAcqua},
-            {text: 'manual', backgroundColor: colors.purple},
-            {text: 'peças extras', backgroundColor: colors.pink},
-        ],
-        description: <>
-                Este conjunto representa a terceira (e mais completa, na minha opinião) geração dos kits de robótica educacional da Lego.
+                Este conjunto representa a terceira (e mais completa, na minha opinião) geração dos kits de robótica educacional da LEGO.
                 Possui todos os cabos (7 cabos do robô + 1 USB), motores (dois L e um M) sensores (um de toque,
                 um de cor e um infravermelho) e o controle remoto funcionando perfeitamente.
                 <br/><br/>
