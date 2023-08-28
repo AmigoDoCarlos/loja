@@ -25,6 +25,10 @@ import pull3 from '@/assets/images/pullbacks/pull3.jpg';
 import pull4 from '@/assets/images/pullbacks/pull4.jpg';
 import pull5 from '@/assets/images/pullbacks/pull5.jpg';
 
+import tinyFerrari1 from '@/assets/images/tinyFerrari/tiny1.jpg';
+import tinyFerrari2 from '@/assets/images/tinyFerrari/tiny2.jpg';
+import tinyFerrari3 from '@/assets/images/tinyFerrari/tiny3.jpg';
+
 import speed1 from '@/assets/images/speed/speed1.jpg';
 import speed2 from '@/assets/images/speed/speed2.jpg';
 import speed3 from '@/assets/images/speed/speed3.jpg';
@@ -70,6 +74,18 @@ import miniJungle3 from '@/assets/images/miniJungle/jungle3.jpg';
 import miniJungle4 from '@/assets/images/miniJungle/jungle4.jpg';
 import miniJungle5 from '@/assets/images/miniJungle/jungle5.jpg';
 
+import miniRacers1 from '@/assets/images/miniRacers/racers1.jpg';
+import miniRacers2 from '@/assets/images/miniRacers/racers2.jpg';
+import miniRacers3 from '@/assets/images/miniRacers/racers3.jpg';
+import miniRacers4 from '@/assets/images/miniRacers/racers4.jpg';
+import miniRacers5 from '@/assets/images/miniRacers/racers5.jpg';
+
+import miniFord1 from '@/assets/images/miniFord/ford1.jpg';
+import miniFord2 from '@/assets/images/miniFord/ford2.jpg';
+import miniFord3 from '@/assets/images/miniFord/ford3.jpg';
+import miniFord4 from '@/assets/images/miniFord/ford4.jpg';
+import miniFord5 from '@/assets/images/miniFord/ford5.jpg';
+
 import miniHeroes1 from '@/assets/images/miniHeroes/heroes1.jpg';
 import miniHeroes2 from '@/assets/images/miniHeroes/heroes2.jpg';
 import miniHeroes3 from '@/assets/images/miniHeroes/heroes3.jpg';
@@ -88,6 +104,12 @@ import miniStarWars3 from '@/assets/images/miniStarWars/sw3.jpg';
 import miniStarWars4 from '@/assets/images/miniStarWars/sw4.jpg';
 import miniStarWars5 from '@/assets/images/miniStarWars/sw5.jpg';
 
+import print1 from '@/assets/images/3dprint/3dprint1.jpg';
+import print2 from '@/assets/images/3dprint/3dprint2.jpg';
+import print3 from '@/assets/images/3dprint/3dprint3.jpg';
+import print4 from '@/assets/images/3dprint/3dprint4.jpg';
+import print5 from '@/assets/images/3dprint/3dprint5.jpg';
+
 export const introPictures = {
     left: [
         leftImg3,
@@ -101,7 +123,7 @@ export const introPictures = {
     ]
 }
 
-export const productPictures = {
+export const legoPictures = {
     mclaren: [
         mclaren1,
         mclaren2,
@@ -125,6 +147,20 @@ export const productPictures = {
         miniJungle4,
         miniJungle5,
     ],
+    miniRacers: [
+        miniRacers1,
+        miniRacers2,
+        miniRacers3,
+        miniRacers4,
+        miniRacers5,
+    ],
+    miniFord: [
+        miniFord1,
+        miniFord2,
+        miniFord3,
+        miniFord4,
+        miniFord5,
+    ],
     miniHeroes: [
         miniHeroes1,
         miniHeroes2,
@@ -145,6 +181,11 @@ export const productPictures = {
         miniStarWars3,
         miniStarWars4,
         miniStarWars5,
+    ],
+    tinyFerrari: [
+        tinyFerrari1,
+        tinyFerrari2,
+        tinyFerrari3,
     ],
     pullback: [
         pull1,
@@ -200,3 +241,10 @@ export const productPictures = {
     ],
 }
 
+export const printingPictures = {
+    print1,
+    print2,
+    print3,
+    print4,
+    print5,
+}

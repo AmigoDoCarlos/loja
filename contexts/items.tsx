@@ -1,4 +1,4 @@
-import { productPictures } from './pictures';
+import { legoPictures } from './pictures';
 import { colors } from '../colors';
 import { StaticImageData } from 'next/image';
 
@@ -37,7 +37,7 @@ export const items: itemProps[] = [
                 fornecidas via PDF. A última foto mostra uma comparação de tamanho com uma minifigura.
             </>,
         price: 679,
-        images: productPictures.mclaren,
+        images: legoPictures.mclaren,
         filters: [],
     }, {
         title: 'Arara Canindé',
@@ -56,7 +56,7 @@ export const items: itemProps[] = [
                 mostra uma comparação de tamanho com uma minifigura.
             </>,
         price: 120,
-        images: productPictures.macaw,
+        images: legoPictures.macaw,
         filters: [],
     }, {
         title: 'Conjunto Selva',
@@ -71,7 +71,7 @@ export const items: itemProps[] = [
                 60066-1</a>. Todos os itens estão em condição de novos.
             </>,
         price: 39,
-        images: productPictures.miniJungle,
+        images: legoPictures.miniJungle,
         filters: [],
     }, {
         title: 'Conjunto Heróis',
@@ -84,10 +84,36 @@ export const items: itemProps[] = [
                 primeiro filme). Ambos estão em condição de novos.
             </>,
         price: 39,
-        images: productPictures.miniHeroes,
+        images: legoPictures.miniHeroes,
         filters: [],
     }, {
-        title: 'Conjunto pilotos',
+        title: 'Conjunto Corrida',
+        labels: [
+            {text: 'combo', backgroundColor: colors.acqua},
+        ],
+        description: <>
+                Conjunto com dois pilotos de corrida, um da Ferrari e um da Mclaren, retirados
+                de conjuntos Speed Champions. Ambos estão em estado de novos e acompanham
+                seus respectivos acessórios (chaves de boca e cabelo, no caso da piloto da Mclaren).
+            </>,
+        price: 39,
+        images: legoPictures.miniRacers,
+        filters: [],
+    }, {
+        title: 'Conjunto Ford',
+        labels: [
+            {text: 'combo', backgroundColor: colors.acqua},
+        ],
+        description: <>
+                Conjunto com dois funcionários de campo da Ford, um piloto e um assistente de pista,
+                retirados de conjuntos Speed Champions. Ambos estão como novos e acompanham seus
+                respectivos acessórios (chave de boca e sinalizador).
+            </>,
+        price: 39,
+        images: legoPictures.miniFord,
+        filters: [],
+    }, {
+        title: 'Conjunto Pilotos',
         labels: [
             {text: 'combo', backgroundColor: colors.acqua},
         ],
@@ -96,10 +122,10 @@ export const items: itemProps[] = [
                 Ambos estão em condição de novos e acompanham pistolas laser acessórias.
             </>,
         price: 39,
-        images: productPictures.miniPilots,
+        images: legoPictures.miniPilots,
         filters: [],
     }, {
-        title: 'Conjunto guerreiros',
+        title: 'Conjunto Guerreiros',
         labels: [
             {text: 'combo', backgroundColor: colors.acqua},
         ],
@@ -109,7 +135,7 @@ export const items: itemProps[] = [
                 somente a cabeça é de outra minifigura). Ambos estão em condição de novos.
             </>,
         price: 39,
-        images: productPictures.miniStarWars,
+        images: legoPictures.miniStarWars,
         filters: [],
     }, {
         title: 'Luke Skywalker',
@@ -126,7 +152,21 @@ export const items: itemProps[] = [
                 peça da arma laser (<a href='https://www.bricklink.com/v2/catalog/catalogitem.page?P=11610&idColor=95#T=S&C=95&O={%22color%22:95,%22iconly%22:0}' target='_blank'>11610</a>). 
             </>,
         price: 59,
-        images: productPictures.luke,
+        images: legoPictures.luke,
+        filters: [],
+    }, {
+        title: 'Mini Ferrari 458 Italia',
+        labels: [
+            {text: 'manual', backgroundColor: colors.purple},
+        ],
+        description: <>
+                Este pequeno conjunto de 33 peças surgiu em 2012 em uma edição limitada,
+                fruto de uma parceria entre Shell e Lego. Possui mecanismo de fricção.
+                Contém o manual impresso original, mas as rodas foram substituídas pelas
+                do set 31055. 
+            </>,
+        price: 20,
+        images: legoPictures.tinyFerrari,
         filters: [],
     }, {
         title: 'Conjunto Racers',
@@ -136,10 +176,11 @@ export const items: itemProps[] = [
         ],
         description: <>
                 Conjunto de 148 peças com dois carros movidos à fricção da extinta linha Racers, o
-                Action Wheelie (vermelho - 8667) e o Race Rig (laranja - 8162).
+                Action Wheelie (vermelho - 8667) e o Race Rig (laranja - 8162). Este último acompanha
+                manual.
             </>,
         price: 99,
-        images: productPictures.pullback,
+        images: legoPictures.pullback,
         filters: [],
     }, {
         title: 'Conjunto City',
@@ -156,7 +197,7 @@ export const items: itemProps[] = [
                 está disponibilizado em preto em vez de light bluish grey. Sem minifiguras.
             </>,
         price: 139,
-        images: productPictures.city,
+        images: legoPictures.city,
         filters: [],
     }, {
         title: 'Conjunto Speed Champions',
@@ -172,7 +213,7 @@ export const items: itemProps[] = [
                 mas não contém as minifiguras. 
             </>,
         price: 199,
-        images: productPictures.speed,
+        images: legoPictures.speed,
         filters: [],
     }, {
         title: 'Nitro Muscle',
@@ -189,7 +230,7 @@ export const items: itemProps[] = [
                 dianteiras através de uma manopla no para-choque traseiro.
             </>,
         price: 249,
-        images: productPictures.nitro,
+        images: legoPictures.nitro,
         filters: [],
     }, {
         title: 'NASA Apollo Saturn V',
@@ -217,7 +258,7 @@ export const items: itemProps[] = [
                 Mesmo com esta avaria, é possível usá-la na montagem sem nenhum problema (conforme também ilustrado na foto). 
             </>,
         price: 1069,
-        images: productPictures.saturn,
+        images: legoPictures.saturn,
         filters: [],
     }, {
         title: 'Mindstorms EV3',
@@ -242,8 +283,32 @@ export const items: itemProps[] = [
                 mas nada que atrapalhe a montagem. 
             </>,
         price: 1349,
-        images: productPictures.mindstorms,
+        images: legoPictures.mindstorms,
+        filters: [],
+    }, {
+        title: 'Mindstorms EV3',
+        labels: [
+            {text: 'conjunto', backgroundColor: colors.blue},
+            {text: 'adesivos', backgroundColor: colors.darkAcqua},
+            {text: 'manual', backgroundColor: colors.purple},
+            {text: 'peças extras', backgroundColor: colors.pink},
+        ],
+        description: <>
+                Este conjunto representa a terceira (e mais completa, na minha opinião) geração dos kits de robótica educacional da Lego.
+                Possui todos os cabos (7 cabos do robô + 1 USB), motores (dois L e um M) sensores (um de toque,
+                um de cor e um infravermelho) e o controle remoto funcionando perfeitamente.
+                <br/><br/>
+                Possui ainda a cartela de adesivos intacta e uma série de itens extras: um segundo controle remoto, da linha Power Functions
+                (que comprei por ser compatível e mais ergonômico que o original do EV3), 5 cabos extras e, principalmente, um segundo
+                sensor de cor. Isto faz com que este kit seja muito indicado para competições como a Olimpíada Brasileira de Robótica, por exemplo.
+                <br/><br/>
+                De observações, possui apenas duas peças estéticas faltando (uma <a href='https://www.bricklink.com/v2/catalog/catalogitem.page?P=64391&idColor=1#T=S&C=1&O={%22color%22:1,%22iconly%22:0}' target='_blank'>64391</a>
+                &nbsp;e uma <a href='https://www.bricklink.com/v2/catalog/catalogitem.page?P=98347&idColor=1#T=S&C=1&O={%22color%22:1,%22iconly%22:0}'>98347</a>).
+                Por fim, o carregador de bolinhas está com uma de suas pontas de fixação quebrada (conforme mostrado na última foto),
+                mas nada que atrapalhe a montagem. 
+            </>,
+        price: 1349,
+        images: legoPictures.mindstorms,
         filters: [],
     },
 ]
-
