@@ -19,6 +19,12 @@ import macaw3 from '@/assets/images/macaw/macaw3.jpg';
 import macaw4 from '@/assets/images/macaw/macaw4.jpg';
 import macaw5 from '@/assets/images/macaw/macaw5.jpg';
 
+import pull1 from '@/assets/images/pullbacks/pull1.jpg';
+import pull2 from '@/assets/images/pullbacks/pull2.jpg';
+import pull3 from '@/assets/images/pullbacks/pull3.jpg';
+import pull4 from '@/assets/images/pullbacks/pull4.jpg';
+import pull5 from '@/assets/images/pullbacks/pull5.jpg';
+
 import speed1 from '@/assets/images/speed/speed1.jpg';
 import speed2 from '@/assets/images/speed/speed2.jpg';
 import speed3 from '@/assets/images/speed/speed3.jpg';
@@ -139,6 +145,13 @@ export const productPictures = {
         miniStarWars3,
         miniStarWars4,
         miniStarWars5,
+    ],
+    pullback: [
+        pull1,
+        pull2,
+        pull3,
+        pull4,
+        pull5,
     ],
     speed: [
         speed1,

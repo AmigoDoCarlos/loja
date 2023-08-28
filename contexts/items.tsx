@@ -61,7 +61,7 @@ export const items: itemProps[] = [
     }, {
         title: 'Conjunto Selva',
         labels: [
-            {text: 'combo', backgroundColor: colors.darkGrey},
+            {text: 'combo', backgroundColor: colors.acqua},
         ],
         description: <>
                 Um conjunto que poderia muito bem ter saído de algum Tomb Raider. Composto pela
@@ -76,19 +76,20 @@ export const items: itemProps[] = [
     }, {
         title: 'Conjunto Heróis',
         labels: [
-            {text: 'combo', backgroundColor: colors.darkGrey},
+            {text: 'combo', backgroundColor: colors.acqua},
         ],
         description: <>
-                Conjunto representando um crossover improvável ente Pixar e DC comics. Consiste no Batman com acessórios (arma de gancho e cinto de utilidades),
-                e Sr Incrível com acessório (pôster do primeiro filme). Ambos estão em condição de novos.
+                Conjunto representando um crossover improvável ente Pixar e DC comics. Consiste no Batman com
+                acessórios (arma de gancho e cinto de utilidades), e Sr Incrível com acessório (pôster do
+                primeiro filme). Ambos estão em condição de novos.
             </>,
         price: 39,
         images: productPictures.miniHeroes,
         filters: [],
     }, {
-        title: 'Conjunto pilotos SW',
+        title: 'Conjunto pilotos',
         labels: [
-            {text: 'combo', backgroundColor: colors.darkGrey},
+            {text: 'combo', backgroundColor: colors.acqua},
         ],
         description: <>
                 Conjunto com dois pilotos de Star Wars, um da resistência rebelde e outro do império.
@@ -98,9 +99,9 @@ export const items: itemProps[] = [
         images: productPictures.miniPilots,
         filters: [],
     }, {
-        title: 'Conjunto guerreiros SW',
+        title: 'Conjunto guerreiros',
         labels: [
-            {text: 'combo', backgroundColor: colors.darkGrey},
+            {text: 'combo', backgroundColor: colors.acqua},
         ],
         description: <>
                 Conjunto com um Wookie e um lorde Sith customizado, este último construído com o corpo, capuz e cabelo da personagem
@@ -128,9 +129,22 @@ export const items: itemProps[] = [
         images: productPictures.luke,
         filters: [],
     }, {
+        title: 'Conjunto Racers',
+        labels: [
+            {text: 'combo', backgroundColor: colors.acqua},
+            {text: 'manual', backgroundColor: colors.purple},
+        ],
+        description: <>
+                Conjunto de 148 peças com dois carros movidos à fricção da extinta linha Racers, o
+                Action Wheelie (vermelho - 8667) e o Race Rig (laranja - 8162).
+            </>,
+        price: 99,
+        images: productPictures.pullback,
+        filters: [],
+    }, {
         title: 'Conjunto City',
         labels: [
-            {text: 'combo', backgroundColor: colors.darkGrey},
+            {text: 'combo', backgroundColor: colors.acqua},
             {text: 'manual', backgroundColor: colors.purple},
         ],
         description: <>
@@ -147,7 +161,7 @@ export const items: itemProps[] = [
     }, {
         title: 'Conjunto Speed Champions',
         labels: [
-            {text: 'combo', backgroundColor: colors.darkGrey},
+            {text: 'combo', backgroundColor: colors.acqua},
             {text: 'manual', backgroundColor: colors.purple},
         ],
         description: <>
