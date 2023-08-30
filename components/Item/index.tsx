@@ -74,7 +74,7 @@ export default function Item({title, labels, price, images, description, obs, so
                         />
                         {sold && (
                             <div className='soldLabel bold'>
-                                Vendido!
+                                Vendido
                             </div>
                         )}
                     </div>

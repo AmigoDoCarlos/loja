@@ -301,6 +301,6 @@ export const items: itemProps[] = [
         price: 1349,
         images: legoPictures.mindstorms,
         filters: [],
-        sold: false,
+        sold: true,
     },
 ]
