@@ -145,7 +145,7 @@ export const items: itemProps[] = [
         price: 39,
         images: legoPictures.miniStarWars,
         filters: [],
-        sold: false,
+        sold: true,
     }, {
         title: 'Luke Skywalker',
         labels: [
@@ -163,7 +163,7 @@ export const items: itemProps[] = [
         price: 59,
         images: legoPictures.luke,
         filters: [],
-        sold: false,
+        sold: true,
     }, {
         title: 'Mini Ferrari 458 Italia',
         labels: [
@@ -246,7 +246,7 @@ export const items: itemProps[] = [
         price: 249,
         images: legoPictures.nitro,
         filters: [],
-        sold: false,
+        sold: true,
     }, {
         title: 'NASA Apollo Saturn V',
         labels: [
