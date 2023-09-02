@@ -131,7 +131,7 @@ export const items: itemProps[] = [
         price: 39,
         images: legoPictures.miniPilots,
         filters: [],
-        sold: false,
+        sold: true,
     }, {
         title: 'Conjunto Guerreiros',
         labels: [
